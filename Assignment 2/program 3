@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <canio.h>
+{
+    int a,b,c,t;
+    printf("input three angle of trianhle")
+    scanf ("%d%d%d,"&a&b&c);
+    t=a+b+c
+    if (t==180)
+{   
+    printf("the triangle is valid");
+}
+    else
+{
+    printf("the triangle is not valid")
+}
+}
